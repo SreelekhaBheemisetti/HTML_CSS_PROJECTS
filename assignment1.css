@@ -1,0 +1,26 @@
+.child1 {
+    background-color: tomato;
+    width: 250px;
+    height: 150px;
+    border: black 1px solid;
+    color: white;
+}
+
+.child2 {
+    background-color: tomato;
+    width: 250px;
+    height: 150px;
+    border: black 1px solid;
+    color: white;
+    
+}.child3 {
+    background-color: tomato;
+    width: 250px;
+    height: 150px;
+    border: black 1px solid;
+    color: white;
+}
+
+.a {
+    color:navy;
+}

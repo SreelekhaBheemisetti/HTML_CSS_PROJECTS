@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+h2{
+    color: gray;
+}
+
+p{
+    color: skyblue;
+}
+
+#main {
+    padding: 10px;
+}
+
+#About {
+    padding: 10px;
+}
+
+.img{
+    padding: 5px;
+    border-radius: 25px;
+    width: 30%;
+}
+#iv{
+    padding: 10px;
+}

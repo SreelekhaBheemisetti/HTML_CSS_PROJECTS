@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.br{
+    border-radius: 10px;
+}
+
+#custom-nav-link-color1{
+    color: #323f4b !important;
+    font-family: "Roboto";
+}
+
+#custom-nav-link-color2{
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+
+#custom-nav-link-color3{
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#custom-nav-link-color4{
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.food-logo{
+    width: 100px;
+    height: 80px;
+}
+#bg{
+    background-color: white !important;
+    height: 100px;
+    width: auto;
+}
+
+.fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+.bg-white{
+    background-color: #fff !important;
+}
+
+.banner-section-bg-container{
+    height: 100vh;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    background-size: cover;
+}
+.banner-heading{
+    color: white;
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.banner-para{
+    color: white;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.custom-button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #d0b200;
+    border: none;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.bor{
+    border-style: solid;
+}
+
+.custom-button1{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    border-color: #d0b200;
+    color: #d0b200;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    margin-right: 8px;
+
+}
+.colorr{
+    color: brown !important;
+}
+.why-choose-section{
+    background-color: #f9fbfe;
+}
+.single-card{
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #e5eaf4;
+}
+.single-image{
+    height: 100px;
+    width: 90px;
+}
+
+.explore-menu-section{
+    background-color: white;
+}
+.menu-section-heading{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.menu-item-image{
+    border-radius: 15px;
+}
+.card-title{
+    color: gray;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#gift-button{
+    background-color: #d0b200;
+    color: #f9fbfe;
+}
+.gift-voucher{
+    color: #d0b200;
+}
+.menu-link{
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.healthy-section{
+    background-color: #f9fbfe;
+
+}
+
+.follow-us-icons{
+    background-color: #faf7e8;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 20px;
+    
+
+}
+
+.icon-size{
+    font-size: 60px;
+    color: #d0b200;
+}
+
+
+
+.payement-section{
+    background-color: white;
+}
+
+.image-pay{
+    width: 50%;
+}
+
+.payemt{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.thanking{
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.bg-bottom{
+    background-color: #0d2436;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}

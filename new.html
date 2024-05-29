@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style> 
+        .navbar-nav .nav-link:hover {
+            background-color: yellow;
+        }
+
+        header {
+            background-image: url('https://source.unsplash.com/random/1500x500?landscape');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            margin: 20px;
+            height: 600px;;
+            width: 300px;
+            background-color: #fff;
+            border: 1px solid #ddd; 
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            font-family: "monospace";
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+                
+        .project:hover {
+            transform: scale(1.05);
+        } 
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project-info {
+            padding: 20px;
+        }
+        .project-info h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .project-info p {
+            margin: 0;
+            color: #666;
+            font-size: 16px;
+        }
+        .skill {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .skill img {
+            width: 90px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        .skill h3 {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        .skill:hover {
+            transform: scale(1.1);
+            background-color: #f0f0f0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #contact {
+        background: #f4f4f4;
+        padding: 40px 20px;
+        text-align: center;
+        }
+
+        #contact h2 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        #contact p {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        #contact a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            color: #333;
+        }
+        .about-section {
+            background-color: #F0F8FF;
+            border: 2px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .about-section h2 {
+            color: #2E8B57;
+        }
+
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 2em;
+            }
+
+            .project-info h3 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a class="btn btn-outline-warning navbar-btn" href="#hero">Home</a>
+                </div>
+                <div class="col">
+                    <a class="btn btn-outline-warning navbar-btn" href="#about">About</a>
+                </div>
+                <div class="col">
+                    <a class="btn btn-outline-warning navbar-btn" href="#projects">Projects</a>
+                </div>
+                <div class="col">
+                    <a class="btn btn-outline-warning navbar-btn" href="#skills">Skills</a>
+                </div>
+                <div class="col">
+                    <a class="btn btn-outline-warning navbar-btn" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="text-white">
+        <div class="container">
+            <h1 style="font-family: 'Courier New', Courier, monospace;">Welcome to My Portfolio</h1>
+        </div>
+    </header>
+
+    <section id="about" class="about-section my-7">
+        <div class="d-flex flex-row justify-content-start align-items-center">
+            <div class="margin-left">
+                <img height="300px" width="300px" class="rounded-circle padding-left" src="WhatsApp Image 2024-05-18 at 11.24.27 PM.jpeg">
+            </div>
+            <div class="container" style="font-family: 'Courier New', Courier, monospace;">
+                <h2>About Me</h2>
+                <h3>Rishav Tiwari</h3>
+                <p style="font-size: 20px;">I hold a BSc in Mathematics and Chemistry and have won multiple medals in sports like cricket, running, volleyball, kho-kho, and kabaddi. As an Academic Associate at Navgurukul, I design and review curriculum, guide students, monitor their progress, and teach technology skills. My strong skills in motivation, confidence, problem-solving, communication, and adaptability help me effectively support student growth and learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 style="font-family: 'Courier New', Courier, monospace;">Projects</h2>
+            <div class="project-grid">
+
+                <div class="project">
+                    <a href="https://github.com/rishavtiwari22/Python_ATM_Code/blob/main/Python%20ATM">
+                        <img src="https://source.unsplash.com/random/300x200?atm" alt="ATM">
+                        <div class="project-info">
+                            <h3>ATM Project</h3>
+                            <p>The ATM Project is a simulated Automated Teller Machine application developed using Python. This project showcases fundamental programming skills, including user authentication, transaction processing, and error handling. It provides users with a simple and intuitive interface to perform common banking operations such as balance inquiry, cash withdrawal, and deposit.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="#">
+                        <img src="https://source.unsplash.com/random/300x200?portfolio" alt="Portfolio">
+                        <div class="project-info">
+                            <h3>Portfolio</h3>
+                            <p>A portfolio is simply a generic term for a grouping of things.The purpose of creating and managing a portfolio is to ensure the business takes on the right projects and that they align with the company’s values, strategies, and goals.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/rishavtiwari22/Python_ATM_Code/blob/main/PYTHON%20CRUD">
+                        <img src="https://source.unsplash.com/random/300x200?hacker" alt="CRUD Python Project">
+                        <div class="project-info">
+                            <h3>CRUD Python Project</h3>
+                            <p>The CRUD Python Project is a comprehensive application that demonstrates Create, Read, Update, and Delete operations using Python. It allows users to manage data effectively, providing functionalities to add, view, edit, and delete records from a database. With a user-friendly interface and robust functionality, this project showcases the power and versatility of Python in building scalable and efficient applications.</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Add more projects here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 style="font-family: 'Courier New', Courier, monospace;">Skills</h2>
+            <div class="skills">
+                <a href="https://www.learnpython.org/" target="_blank" rel="noopener noreferrer" class="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+                    <h3>Python</h3>
+                </a>
+                <a href="https://www.w3schools.com/css/" target="_blank" rel="noopener noreferrer" class="skill">
+                    <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="CSS">
+                    <h3>CSS</h3>
+                </a>
+                <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer" class="skill">
+                    <img src="https://cdn-icons-png.flaticon.com/128/732/732212.png" alt="HTML">
+                    <h3>HTML</h3>
+                </a>
+                <a href="https://www.w3schools.com/js/" target="_blank" rel="noopener noreferrer" class="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                </a>
+                <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank" rel="noopener noreferrer" class="skill">
+                    <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="Bootstrap">
+                    <h3>Bootstrap</h3>
+                </a>
+                <!-- Add more skills here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact</h2>
+            <div class="row">
+                <div class="col-md-4 text-center mb-3">
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt fa-2x mb-2"></i>
+                        <p><strong>Address:</strong><br> Prayagraj, Uttar Pradesh</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <div class="contact-info">
+                        <i class="fas fa-phone-alt fa-2x mb-2"></i>
+                        <p><strong>Contact:</strong><br> 9336648747</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <div class="contact-info">
+                        <i class="fas fa-envelope fa-2x mb-2"></i>
+                        <p><strong>Email:</strong><br> <a href="mailto:tiwaririshav463@gamol.com">tiwaririshav463@gamol.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Responsive navbar
+        $(document).ready(function () {
+            $('.navbar-toggler').click(function () {
+                $('.navbar-collapse').toggleClass('show');
+            });
+        });
+    </script>
+</body>
+</html>

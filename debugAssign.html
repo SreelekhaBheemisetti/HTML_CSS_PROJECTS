@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="debugAssign.css">
+    <script src="debugAssign.js" defer ></script>
+</head>
+<body>
+    <div class="text-center">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/sum-of-two-numbers-img.png" class="image"/>
+        <div class="bg-container pt-5 pb-5">
+          <span class="number m-2" id="firstBlank"></span> 
+          <span class="operator m-1">+</span>
+          <span class="number m-2" id="secondBlank"></span>
+          <span class="operator m-1">=</span>
+          <input class="user-input" type="text" id="total" />
+          <div class="mt-4 mb-4">
+            <button id="checkButton" class="btn btn-primary mr-3" onclick="checkOn()">
+              Check
+            </button>
+            <button id="restartButton" class="btn btn-primary" onclick="restartOn()">
+              Restart
+            </button>
+          </div>
+          <p class="game-result"></p>
+        </div>
+    </div> 
+    
+</body>
+</html>
+

@@ -1,0 +1,20 @@
+/* @media screen{
+    h1 {
+        color: blue;
+    }
+    .container {
+        color: green;
+    }
+}
+
+@media (width: 800px){
+    .container { 
+        color: blue;
+    }
+} */
+
+@media (max-width: 1000px){
+    .container{
+        color:blueviolet;
+    }
+}

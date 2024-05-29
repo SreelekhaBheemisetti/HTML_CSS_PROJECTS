@@ -1,0 +1,9 @@
+.parent {
+    border: solid 3px black ;
+}
+.parent > div {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px green dotted;
+    width: auto;
+}
